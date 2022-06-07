@@ -38,7 +38,7 @@ ekle.addEventListener("click", function () {
 function add() {
   row = ` <div class="task" > <input type="checkbox" name="todo" id="" class="check">${giris.value}</input> <button class="delete">
   <i class="far fa-trash-alt"></i>
-  </button> </div> <br> `;
+  </button>  </div> `;
 
   list.innerHTML += row;
 }

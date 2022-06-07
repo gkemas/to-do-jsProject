@@ -1,7 +1,18 @@
+body {
+  background-color: aquamarine;
+  font-size: 1.2rem;
+}
+.eklediv {
+  height: 3rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
 #giris {
   width: 80vh;
   border: none;
+  outline: none;
 }
+
 #ekle {
   width: 100px;
   background-color: #de6590;
@@ -25,8 +36,16 @@
   text-align: center;
   border: 1px solid #de6590;
   background-color: antiquewhite;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .check {
   height: 25px;
 
+}
+.delete {
+  border-radius: 15px;
+  background-color:azure;
+  
 }
