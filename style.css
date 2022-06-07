@@ -1,22 +1,32 @@
-#giris{
-    width: 80vh;
-    border: none;
-    
+#giris {
+  width: 80vh;
+  border: none;
 }
-#ekle{
-    width: 100px;
-    background-color: #DE6590;
-    color: white;
-    border: none;
+#ekle {
+  width: 100px;
+  background-color: #de6590;
+  color: white;
+  border: none;
 }
-.eklediv{
-    border: 1px solid #DE6590;
-    display: flex;
-    justify-content: center;
-    width: 90vh;
+.eklediv {
+  border: 1px solid #de6590;
+  display: flex;
+  justify-content: center;
+  width: 90vh;
+}
+.list {
+  width: 700px;
+  margin: auto;
+}
 
-
+.task {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #de6590;
+  background-color: antiquewhite;
 }
-.list{
-    width: 100vw;
+.check {
+  height: 25px;
+
 }

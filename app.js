@@ -21,7 +21,7 @@ ekle.addEventListener("click", function () {
       check[i].onclick = function () {
         console.log("onclick");
         this.parentElement.style.textDecoration = "line-through";
-        // this.parentElement.firstChild.innerText.style.opacity = "0.5";
+        // this.style.opacity = "0.5";
         this.nextElementSibling.style.color = "green";
         this.style.backgroundColor = "green";
       };
