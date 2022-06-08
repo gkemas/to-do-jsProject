@@ -1,7 +1,7 @@
 const giris = document.getElementById("giris");
 const ekle = document.getElementById("ekle");
 const list = document.getElementById("liste");
-// const check = document.getElementsByClassName("check");
+
 ekle.addEventListener("click", function () {
   if (!giris.value) {
     alert("please write something");
@@ -21,7 +21,7 @@ ekle.addEventListener("click", function () {
       check[i].onclick = function () {
         console.log("onclick");
         this.parentElement.style.textDecoration = "line-through";
-        // this.style.opacity = "0.5";
+        // this.style.opacity = ".5";
         this.nextElementSibling.style.color = "green";
         this.style.backgroundColor = "green";
       };
@@ -44,7 +44,7 @@ function add() {
 }
 
 window.onload = () => {
-  giris.focus;
+  giris.focus();
 };
 
 giris.addEventListener("keydown", (e) => {
@@ -52,8 +52,3 @@ giris.addEventListener("keydown", (e) => {
     ekle.click();
   }
 });
-
-// list.addEventListener("click", (e) => {
-//    e.target.nextSibling.style.textDecoration = "line-through";
-//    console.log("dd");
-//  });

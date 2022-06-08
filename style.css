@@ -8,13 +8,13 @@ body {
   overflow: hidden;
 }
 #giris {
-  width: 80vh;
+  width: 100vw;
   border: none;
   outline: none;
 }
 
 #ekle {
-  width: 100px;
+  width: 20vw;
   background-color: #de6590;
   color: white;
   border: none;
@@ -23,10 +23,10 @@ body {
   border: 1px solid #de6590;
   display: flex;
   justify-content: center;
-  width: 90vh;
+  width: 70vw;
 }
 .list {
-  width: 700px;
+  width: 70vw;
   margin: auto;
 }
 
@@ -42,10 +42,8 @@ body {
 }
 .check {
   height: 25px;
-
 }
 .delete {
   border-radius: 15px;
-  background-color:azure;
-  
+  background-color: azure;
 }
