@@ -8,7 +8,7 @@ body {
   overflow: hidden;
 }
 #giris {
-  width: 110vw;
+  width: 100vw;
   border: none;
   outline: none;
 }
@@ -23,7 +23,7 @@ body {
   border: 1px solid #de6590;
   display: flex;
   justify-content: center;
-  width: 70vw;
+  width: 80vw;
 }
 .list {
   width: 70vw;
