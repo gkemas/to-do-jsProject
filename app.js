@@ -1,13 +1,16 @@
 const giris = document.getElementById("giris");
 const ekle = document.getElementById("ekle");
 const list = document.getElementById("liste");
-
+const show = document.getElementById("show");
 ekle.addEventListener("click", function () {
   if (!giris.value) {
     alert("please write something");
+    showAlert("danger", "Please write someting");
   } else {
     add();
-    giris.innerHTML = giris.value = "";
+    showAlert("success", "Successfly");
+
+    giris.value = "";
     let close = document.querySelectorAll(".delete");
 
     for (let i = 0; i < close.length; i++) {
@@ -52,3 +55,14 @@ giris.addEventListener("keydown", (e) => {
     ekle.click();
   }
 });
+
+function showAlert(type, message) {
+  const alert = document.createElement("div");
+  alert.className = `alert alert-${type} `;
+  alert.textContent = message;
+ show.appendChild(alert); 
+
+   setTimeout(function () {
+    alert.remove();
+  }, 1000);
+}
